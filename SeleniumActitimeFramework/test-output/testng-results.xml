@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5" started-at="2018-10-31T03:31:18Z" finished-at="2018-10-31T03:31:18Z">
+    <groups>
+      <group name="st">
+        <method signature="CustomerTest.createcustomertest()[pri:0, instance:com.acttime.customertest.CustomerTest@91161c7]" name="createcustomertest" class="com.acttime.customertest.CustomerTest"/>
+      </group> <!-- st -->
+      <group name="rt">
+        <method signature="CustomerTest.deletecustomertest()[pri:0, instance:com.acttime.customertest.CustomerTest@91161c7]" name="deletecustomertest" class="com.acttime.customertest.CustomerTest"/>
+        <method signature="CustomerTest.modifycustomertest()[pri:0, instance:com.acttime.customertest.CustomerTest@91161c7]" name="modifycustomertest" class="com.acttime.customertest.CustomerTest"/>
+      </group> <!-- rt -->
+    </groups>
+    <test name="Command line test" duration-ms="5" started-at="2018-10-31T03:31:18Z" finished-at="2018-10-31T03:31:18Z">
+      <class name="com.acttime.customertest.CustomerTest">
+        <test-method status="PASS" signature="createcustomertest()[pri:0, instance:com.acttime.customertest.CustomerTest@91161c7]" name="createcustomertest" duration-ms="0" started-at="2018-10-31T09:01:18Z" finished-at="2018-10-31T09:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomertest -->
+        <test-method status="PASS" signature="deletecustomertest()[pri:0, instance:com.acttime.customertest.CustomerTest@91161c7]" name="deletecustomertest" duration-ms="0" started-at="2018-10-31T09:01:18Z" finished-at="2018-10-31T09:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomertest -->
+        <test-method status="PASS" signature="modifycustomertest()[pri:0, instance:com.acttime.customertest.CustomerTest@91161c7]" name="modifycustomertest" duration-ms="0" started-at="2018-10-31T09:01:18Z" finished-at="2018-10-31T09:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycustomertest -->
+      </class> <!-- com.acttime.customertest.CustomerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
